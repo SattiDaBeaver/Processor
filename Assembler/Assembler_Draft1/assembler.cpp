@@ -4,6 +4,7 @@
 
 #include "input_error.h"
 #include "default.h"
+#include "syntax_error.h"
 
 using namespace std;
 
@@ -13,29 +14,40 @@ int main(int argc, char* argv[]){
 
     // run "./main <arg1> <arg2>" in the command line
 
-    cout << endl;
-    
-    if (argument_length_error(argc)){
-        return -1;
-    }
+    int line = 1;
 
-    if (incorrect_extension(argv[1])){
-        return -1;
-    }
+    partition();
+
+    if (argument_length_error(argc)) return -1;
+    if (incorrect_extension(argv[1])) return -1;
 
     ifstream inFile(argv[1]);
 
-    if (file_not_found(inFile)){
+    if (file_not_found(inFile)) {
+        inFile.close();
         return -1;
     }
 
-    cout << "Number of arguments: " << argc << endl;
+    ofstream outFile("output.txt");
 
-    for (int i = 0; i < argc; i++){
-        cout << "Argument " << i << " : " << argv[i] << endl;
+    // Unga code goes here
+
+    while (!inFile.eof()){
+        if (!parse_line(inFile, outFile, line)){
+            inFile.close();
+            outFile.close();
+            remove("output.txt");
+            return -1;
+        }
+        line++;
     }
+    
+    // Unga code ends here
 
     inFile.close();
+    outFile.close();
+
+    partition();
 
     return 0;
 }

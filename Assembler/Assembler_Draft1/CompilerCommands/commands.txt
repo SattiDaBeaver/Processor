@@ -1,1 +1,1 @@
-g++ assembler.cpp input_error.cpp default.cpp -o assembler.exe
+g++ assembler.cpp input_error.cpp syntax_error.cpp default.cpp -o assembler.exe
