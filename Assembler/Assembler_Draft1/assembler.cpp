@@ -9,10 +9,10 @@
 using namespace std;
 
 int main(int argc, char* argv[]){
-    // argc: number of arguments including "./main"
-    // argv[]: array of the arguments in string format. 
+    // argc: number of arguments including "./assembler"
+    // argv[]: array of the arguments in c-string format. 
 
-    // run "./main <arg1> <arg2>" in the command line
+    // run "./assembler <file_name.txt>" in the command line
 
     int line = 1;
 
