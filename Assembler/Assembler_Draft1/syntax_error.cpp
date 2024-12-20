@@ -14,6 +14,6 @@ bool get_instruction(ifstream& inFile, ofstream& outFile){ // change arguments i
     
 }
 
-bool get_argument_1(string command, ifstream& inFile, ofstream& outFile){
+bool get_argument(int arg_num, string command, ifstream& inFile, ofstream& outFile){
     
 }
