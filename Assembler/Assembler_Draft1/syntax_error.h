@@ -11,7 +11,7 @@ using namespace std;
 bool parse_line(ifstream& inFile, ofstream& outFile, int line);
 
 // Get arguments
-bool get_instruction(ifstream& inFile, ofstream& outFile); // change arguments if needed
+bool get_instruction(ifstream& inFile, ofstream& outFile, string& command, int num_args); // change arguments if needed
 bool get_argument(int arg_num, string command, ifstream& inFile, ofstream& outFile);
 
 #endif
