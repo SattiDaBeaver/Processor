@@ -1,0 +1,153 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/University/Lab Files/Processor/Verilog/DESim/ALU_test/sim
+vALU
+Z1 !s110 1735359497
+!i10b 1
+!s100 ^XVIU<Ln<D:m1o9i@I04X2
+I6GI:4Ydb48EIKFVoLD=SU2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1735359292
+8../ALU.v
+F../ALU.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1735359497.000000
+Z5 !s107 ../top.v|../BCD.v|../ALU.v|
+Z6 !s90 ../ALU.v|../BCD.v|../top.v|
+!i113 1
+Z7 tCvgOpt 0
+n@a@l@u
+vALU_test
+R1
+!i10b 1
+!s100 UBV^lcm6F[F`aB2?kk0SA1
+IiJfn<;2eeYZ_^O?AZYEzh1
+R2
+R0
+Z8 w1735359495
+Z9 8../top.v
+Z10 F../top.v
+L0 24
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@a@l@u_test
+vBCD
+R1
+!i10b 1
+!s100 Q6CUNA<Qd8>Co_l2gg]6o2
+I[9K0<QZ>:mdjzz]]YGUIm1
+R2
+R0
+w1735202178
+8../BCD.v
+F../BCD.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@b@c@d
+vhex7seg
+R1
+!i10b 1
+!s100 9Y=Q348i;2P7VJbaXBl@42
+IN2HUAF^_d:X`b:4TiYGT?3
+R2
+R0
+R8
+R9
+R10
+L0 59
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vreg_8
+R1
+!i10b 1
+!s100 jX`K`aW004hYiT4O57^PW2
+I0jjOhA@DA]6c]enUXoKMG2
+R2
+R0
+R8
+R9
+R10
+L0 46
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtb
+R1
+!i10b 1
+!s100 7<15JUZ9i6W]:eUdQe?hZ2
+IX62EVL4;L;YSYPP650J=Z0
+R2
+R0
+w1728238340
+8../tb/tb.v
+F../tb/tb.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../tb/tb.v|
+!s90 ../tb/tb.v|
+!i113 1
+R7
+vtop
+R1
+!i10b 1
+!s100 7XkHHf0PGPdM]V3L]FGEW2
+INjW]ne`JEcaVUHiG4;=P:3
+R2
+R0
+R8
+R9
+R10
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
