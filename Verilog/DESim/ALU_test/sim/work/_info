@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/University/Lab Files/Processor/Verilog/DESim/ALU_test/sim
 vALU
-Z1 !s110 1735359497
+Z1 !s110 1735460483
 !i10b 1
 !s100 ^XVIU<Ln<D:m1o9i@I04X2
 I6GI:4Ydb48EIKFVoLD=SU2
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1735359497.000000
+Z4 !s108 1735460483.000000
 Z5 !s107 ../top.v|../BCD.v|../ALU.v|
 Z6 !s90 ../ALU.v|../BCD.v|../top.v|
 !i113 1
@@ -36,7 +36,7 @@ R1
 IiJfn<;2eeYZ_^O?AZYEzh1
 R2
 R0
-Z8 w1735359495
+Z8 w1735359513
 Z9 8../top.v
 Z10 F../top.v
 L0 24
